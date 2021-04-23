@@ -1,0 +1,104 @@
+*{
+    cursor: pointer;
+}
+
+.title{
+    position: relative;
+    left: 600px;
+    margin-bottom:15px;
+    color:#B22222;
+    font-size: 25pt;
+}
+.formulario{
+    background-image: url('./img/fundo-neon-vermelho.jpg');
+    background-size: cover;
+    box-shadow: 1px 1px 8px black ;
+    border:1px solid white;
+    
+    width: 700px;
+    height: 500px;
+    position: relative;
+    left: 350px;
+}
+.container .input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items:center;
+    justify-content:center;  
+}
+
+
+.title-input{
+    font-size:20pt;
+    font-weight: bold;
+    color:white;
+    margin-top: 25px;
+}
+
+input{
+    padding: 5px;
+    
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+    margin-left: 5px;
+}
+input:focus{
+    background-color: #B22222;
+}
+
+.select-sexo{
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+    margin-left: 10px;
+
+    width:180px;
+    font-weight:bold;
+}
+
+.select-sexo:focus{
+    background-color: #B22222;
+}
+
+.nascimento{
+    width:180px;
+    font-weight:bolder;
+}
+
+.chk-input{
+    
+   margin-left: 10px;
+}
+
+.chk-input:focus{
+background-color: #B22222;
+}
+
+
+.btn-enviar{
+    font-size:20pt;
+    font-weight: bold;
+    color:#B22222;
+    background-color:black;
+
+    padding: 15px;
+    width: 150px;
+
+    margin-top: 20px;
+    
+    text-align: center;
+    align-items:center;
+    justify-content:center; 
+
+}
+
+.btn-enviar:hover{
+    color: black;
+    background-color: #B22222;
+}
